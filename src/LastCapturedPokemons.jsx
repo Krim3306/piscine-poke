@@ -16,7 +16,7 @@ const LastCapturedPokemons = ({pokemons}) => {
             <div className="allArticles">
                 {threeLastCapturedPokemons.map ((pokemon) => {
                 return (
-                    <Pokemon pokemon = {pokemon} />
+                    <Pokemon pokemon = {pokemon} displayImage = {true}/>
         )})}
             </div>
         </section>)}

@@ -5,6 +5,7 @@ import LastCapturedPokemons from './LastCapturedPokemons';
 import RandomPokemon from './RandomPokemon';
 import FirePokemons from './FirePokemons';
 import Footer from './Footer';
+import ListAllPokemons from './ListAllPokemons ';
 
 function App() {
 
@@ -84,9 +85,12 @@ function App() {
   return (
     <>
       <Header  />
-      <div className='part'><LastCapturedPokemons pokemons = {pokemons} />
-      <RandomPokemon pokemons = {pokemons} />
-      <FirePokemons pokemons = {pokemons} /></div>
+      <div className='part'>
+        <ListAllPokemons pokemons = {pokemons} />
+        <LastCapturedPokemons pokemons = {pokemons} />
+        <RandomPokemon pokemons = {pokemons} />
+        <FirePokemons pokemons = {pokemons} />
+      </div>
       <Footer />
     </>
   );

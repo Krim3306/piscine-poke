@@ -12,7 +12,7 @@ const FirePokemons= ({pokemons}) => {
                     <div className="allArticles">
                         {firePokemons.map ((firePokemon) => {
                         return (
-                            <Pokemon pokemon = {firePokemon} />
+                            <Pokemon pokemon = {firePokemon} displayImage = {true}/>
                         )})}
                     </div>
                 </section>
