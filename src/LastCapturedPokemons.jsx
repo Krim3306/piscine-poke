@@ -11,13 +11,14 @@ const LastCapturedPokemons = ({pokemons}) => {
     console.log(threeLastCapturedPokemons)
 
     return (
-        threeLastCapturedPokemons.map ((pokemon) => {
-            return (
-                <section>
-                    <h2>Last Captured Pokemon</h2>
+        <section>
+            <h2>Last Captured Pokemon</h2>
+            <div className="allArticles">
+                {threeLastCapturedPokemons.map ((pokemon) => {
+                return (
                     <Pokemon pokemon = {pokemon} />
-                </section>
-        )
-  }))}
+        )})}
+            </div>
+        </section>)}
 
 export default LastCapturedPokemons;

@@ -84,9 +84,9 @@ function App() {
   return (
     <>
       <Header  />
-      <LastCapturedPokemons pokemons = {pokemons} />
+      <div className='part'><LastCapturedPokemons pokemons = {pokemons} />
       <RandomPokemon pokemons = {pokemons} />
-      <FirePokemons pokemons = {pokemons} />
+      <FirePokemons pokemons = {pokemons} /></div>
       <Footer />
     </>
   );

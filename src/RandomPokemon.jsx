@@ -7,7 +7,9 @@ const RandomPokemon = ({pokemons}) => {
     return (
         <section>
             <h2>Random Pokemon</h2>
-            <Pokemon pokemon = {randomPickPokemon} />
+            <div className="allArticles">
+                <Pokemon pokemon = {randomPickPokemon} />
+            </div>
         </section>
     )
 }

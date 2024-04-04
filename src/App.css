@@ -13,8 +13,48 @@ body {
 header {
     background-color: #FFCC01;
     text-align: center;
+    padding: 1rem;
+}
+.part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
+h2 {
+    margin: 2rem;
+}
+.allArticles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border: solid 3px #2B6EB6;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem; 
+    border: solid 3px #2B6EB6;
+}
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+img {
+    height: 25rem;
 }
 footer {
     background-color: #FFCC01;
     text-align: center;
+    padding: 1rem;
 }

@@ -7,14 +7,15 @@ const FirePokemons= ({pokemons}) => {
            return (pokemon.type == "Fire")
         })
         
-        return (
-            firePokemons.map ((firePokemon) => {
-                return (
-                    <section>
-                        <h2>Fire Pokemons</h2>
-                        <Pokemon pokemon = {firePokemon} />
-                    </section>
-                )
-            }))}
+        return (<section>
+                    <h2>Fire Pokemons</h2>
+                    <div className="allArticles">
+                        {firePokemons.map ((firePokemon) => {
+                        return (
+                            <Pokemon pokemon = {firePokemon} />
+                        )})}
+                    </div>
+                </section>
+        )}
 
 export default FirePokemons;
